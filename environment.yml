@@ -1,0 +1,12 @@
+name: vlc-context-layer-r2
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12
+  - numpy=2.4.1
+  - pandas=3.0.0
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - pytorch=2.10.0
+  - pip

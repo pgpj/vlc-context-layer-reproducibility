@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated article."
+title: "Reproducibility package for Visible-Light Localization as a Context Layer for Hybrid RF/VLC Indoor IoT"
+type: software
+authors:
+  - family-names: "Palacios Játiva"
+    given-names: "Pablo"
+  - family-names: "Reyes"
+    given-names: "María Camila"
+  - family-names: "Sánchez Salazar"
+    given-names: "Iván"
+version: "1.0.0-r2"
+date-released: "2026-07-25"
+license: "LicenseRef-Pending"
+repository-code: "REPLACE_WITH_PERSISTENT_REPOSITORY_URL"
+abstract: >-
+  Code, fixed configuration, trained checkpoints, numerical results, and plotting
+  scripts for the controlled experiments introduced during the final major revision
+  of manuscript COMMAG-26-00412.R1.
+keywords:
+  - visible-light localization
+  - visible light communication
+  - federated learning
+  - angle-diversity receiver
+  - indoor IoT
