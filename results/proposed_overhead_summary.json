@@ -1,0 +1,12 @@
+{
+  "parameters": 30970,
+  "model_size_kib_fp32": 120.9765625,
+  "single_client_update_kib_fp32": 120.9765625,
+  "selected_clients_per_round": 6,
+  "uplink_kib_per_round_excluding_protocol_overhead": 725.859375,
+  "downlink_kib_per_round_if_unicast": 725.859375,
+  "bidirectional_mib_over_40_rounds_if_unicast": 56.707763671875,
+  "latency_batch1_ms_cpu_mean": 0.4677372920004927,
+  "latency_batch1_ms_cpu_std": 0.0351921487407045,
+  "note": "Communication calculations exclude protocol headers, optimizer state, secure aggregation, retransmissions, and compression."
+}

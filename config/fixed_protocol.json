@@ -1,0 +1,17 @@
+{
+  "status": "new_R2_controlled_ablation_under_reconstructed_protocol",
+  "warning": "The R1 package contained no original code, data, seeds, weights, or logs. These experiments are newly generated and must not be described as recovered original runs.",
+  "purpose": "Answer the final-major-revision requests for simpler alternatives, component justification, model details, statistical repetition, missingness construction, baseline fairness, and overhead.",
+  "seeds": [11, 23, 37, 53, 71],
+  "room_m": [5.0, 6.0, 3.0],
+  "receiver_height_m": 0.85,
+  "led_positions_m": [[1,1,3],[4,1,3],[1,3,3],[4,3,3],[1,5,3],[4,5,3]],
+  "adr_pd_count": 8,
+  "snr_db": 20,
+  "calibrated_aoa_angular_std_deg": 3.0,
+  "missingness": {"independent_anchor_probability": 0.07, "global_gap_frame_fraction": 0.03, "global_gap_burst_steps": [2,4]},
+  "dataset": {"trajectory_count": 240, "train": 160, "validation": 40, "test": 40, "steps_per_trajectory": 80, "sampling_hz": 10, "window_steps": 12},
+  "training": {"optimizer": "Adam", "learning_rate": 0.001, "weight_decay": 0.00001, "batch_size": 256, "central_epochs": 30},
+  "federated": {"clients": 8, "trajectory_assignment": "balanced trajectory-level near-IID partition", "rounds": 40, "local_epochs": 1, "participation": 0.75, "aggregation": "sample-count-weighted FedAvg"},
+  "fairness": "All learned methods use the same trajectory splits, masks, random realizations, optimizer family, learning rate, and 30 effective sample passes per seed."
+}

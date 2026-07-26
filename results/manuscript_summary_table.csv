@@ -1,0 +1,7 @@
+Method,MAE (cm),RMSE (cm),P95 (cm),Parameters,Model size (KiB),Update (KiB),CPU latency (ms)
+ADR TCN-LSTM (centralized),9.72 ± 0.20,12.24 ± 0.49,22.92 ± 0.70,30970,121.0,0.0,0.478
+ADR LSTM-only (centralized),9.88 ± 0.16,12.72 ± 0.43,23.53 ± 0.64,17378,67.9,0.0,0.206
+ADR TCN-only (centralized),9.94 ± 0.18,12.86 ± 0.44,23.59 ± 0.67,13538,52.9,0.0,0.284
+Proposed ADR TCN-LSTM (federated),10.31 ± 0.27,14.10 ± 0.73,24.53 ± 0.88,30970,121.0,121.0,0.468
+Federated static DNN without temporal densification,16.54 ± 1.07,43.92 ± 3.65,26.02 ± 0.85,4258,16.6,16.6,0.044
+Single-PD/RSS LSTM (centralized),93.75 ± 1.72,107.35 ± 1.86,178.37 ± 2.54,13922,54.4,0.0,0.206
