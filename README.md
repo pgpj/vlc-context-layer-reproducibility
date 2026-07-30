@@ -6,7 +6,7 @@ This archive supports the controlled experiments introduced in the final major r
 
 ## Scope and provenance
 
-The previously submitted R1 archive did not contain the original simulation code, datasets, seeds, weights, or logs. Therefore, the material in this archive implements the **new, fixed R2 controlled protocol** used for the revised ablation, repeated-run SNR study, missingness analysis, overhead calculation, and aggregated CDF. It must not be described as recovered historical code.
+The previously submitted R1 archive did not contain the original simulation code, datasets, seeds, weights, or logs. Therefore, the material in this archive implements the **new, fixed R2 controlled protocol** used for the revised ablation, repeated-run SNR study, missingness analysis, overhead calculation, and aggregated CDF.
 
 ## Contents
 
