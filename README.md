@@ -41,7 +41,7 @@ python src/make_report_assets.py
 
 ## Availability record
 
-Persistent repository URL/DOI: `REPLACE_WITH_PERSISTENT_REPOSITORY_URL`
+Persistent repository URL/DOI: https://github.com/pgpj/vlc-context-layer-reproducibility
 
 Before journal submission, replace this marker in the repository, manuscript, and reviewer responses. See `PUBLISH_TO_GITHUB.md`.
 
